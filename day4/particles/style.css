@@ -1,0 +1,44 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+nav{
+    background-color: peachpuff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.drop-element{
+    color: black;
+    background-color: transparent;
+    font-size: 32px;
+    
+}
+/* sets up the boxes for the dropdown */
+.about-content {
+    display: none; /* hides the dropdown until hovered over */
+    position: absolute;
+    background-color: white; /* sets background of dropdown boxes*/
+    min-width: 100px; 
+    padding: 10px;
+}
+
+.about-content a {
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.about-content a:hover{
+    background-color: blue;
+}
+.dropdown:hover .about-content{
+    display:block;
+}
+/* Particles */
+#particles-js{
+    background-color: peachpuff;
+    height: 500px;
+}
